@@ -31,3 +31,6 @@ plugins:
   - offline
   - search
   # - localsearch
+
+extra_css:
+  - stylesheets/extra.css

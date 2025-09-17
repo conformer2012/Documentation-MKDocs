@@ -1,0 +1,17 @@
+/* Change background color of table header */
+.md-typeset table th {
+  background-color: #148065; /* A light grey color */
+  color: #f8f8f8; /* Darker text color for contrast */
+}
+
+/* Add borders to all table cells */
+.md-typeset table th, 
+.md-typeset table td {
+  border: 1px solid #ddd; /* A light grey border */
+}
+
+/* Style the entire table */
+.md-typeset table {
+  border-collapse: collapse; /* Prevents double borders */
+  width: 100%; /* Makes the table span the full width of the content area */
+}
